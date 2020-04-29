@@ -1,0 +1,49 @@
+ <!doctype html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title> WEB</title>
+  <link  rel="stylesheet" type="text/css" href="Estilos.css">
+  
+  <style>
+  body{background-color:green}
+  
+  p {
+  font: 150% cursive, font-family: "ARIAL", serif;
+}
+
+  b {
+  font: 150% cursive;
+}
+
+  </style>
+  </head>
+  <body>
+  
+  <center> <h1> <p style="color:#black;"> BIENVENIDO USUARIO</p> <h1> </center>
+  
+  <div id="img1">
+  <center> <h1><img src ="images.jpg" width="200" alt="900"> </h1> </center>
+  <form action="RecibirDatos.php" method="POST">
+  
+  <fieldset>
+  <center>
+  <font face="impact" size=2.5 color="black">
+  <b>
+  
+  <label for="Nombre"> Nombre:</label>  
+  <input type="text" name="nombre" placeholder="Escriba su nombre">  </br> </br>
+  
+  <label for="Usuario"> Usuario:</label>  
+  <input type="text" name="usuario" placeholder="Escriba su usuario">  </br> </br>
+  
+  <label for="Contra"> Contraseña:</label> 
+  <input type="text" name="contra" placeholder="Escriba su contraseña">
+  </br> </br>
+  <center> <input class="form-btn" name="Guardar" type="submit" value="Guardar" /></center>
+  </b>  
+   </fieldset>
+
+   </form>
+  </body>
+  </html>
